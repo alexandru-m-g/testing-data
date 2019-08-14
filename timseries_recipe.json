@@ -22,7 +22,7 @@
         }
         ],
         "aggregateColumns": [
-          "#indicator+code",
+
           "#date+year"
         ],
         "valueColumns": [
@@ -44,7 +44,7 @@
         }
         ],
         "aggregateColumns": [
-          "#indicator+code",
+ 
           "#date+year"
         ],
         "valueColumns": [
@@ -66,7 +66,7 @@
         }
         ],
         "aggregateColumns": [
-          "#indicator+code",
+ 
           "#date+year"
         ],
         "valueColumns": [
