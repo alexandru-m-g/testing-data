@@ -59,7 +59,7 @@
         "filtersWithout": [
           {
             "#adm1": ""
-          },
+          }
         ],
         "valueColumns": [
           "#affected",
