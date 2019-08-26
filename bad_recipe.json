@@ -42,7 +42,7 @@
       "description": "",
       "type": "chart",
       "options": {
-        "forcedChartType": "pie"
+        "forcedChartType": "bar"
       },
       "ingredients": {
         "aggregateFunctions": [
@@ -78,7 +78,7 @@
       "description": "",
       "type": "chart",
       "options": {
-        "forcedChartType": "pie"
+        "forcedChartType": "bar"
       },
       "ingredients": {
         "aggregateFunctions": [
