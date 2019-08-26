@@ -18,6 +18,9 @@
       "name": "Key Figures: Sum/count items for a value column for latest year",
       "description": "",
       "type": "key figure",
+      "options": {
+        "forcedChartType": "pie"
+      },
       "ingredients": {
         "aggregateFunctions": [
           "sum",
