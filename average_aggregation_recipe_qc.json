@@ -15,7 +15,7 @@
       "type": "timeseries",
       "ingredients": {
         "aggregateFunctions": [
-          "sum"
+          "average"
         ],
         "aggregateColumns": [
           "#item+name+short",
