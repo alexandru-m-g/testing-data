@@ -10,20 +10,19 @@
   ],
   "recipes": [
     {
-      "name": "prices for commodities",
-      "description": "Prices of food commodities. Median prices across various markets are shown.",
-      "type": "timeseries",
+      "name": "Percentage Funded by Cluster for Latest Year",
+      "description": "Bar chart showing percentage funded by cluster for latest year",
+      "type": "chart",
       "ingredients": {
         "aggregateFunctions": [
+          "sum",
           "average"
         ],
         "aggregateColumns": [
-          "#item+name+short",
-          "#item+type",
-          "#date"
+          "#sector+name"
         ],
         "valueColumns": [
-          "#value"
+          "#value+funding+pct"
         ]
       }
     }
