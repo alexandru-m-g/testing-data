@@ -1,0 +1,32 @@
+{
+  "name": "insecurity-insight",
+  "title": "Insecurity Insight",
+  "type": "cookbook",
+  "default": false,
+  "columns": [
+    "#adm1",
+    "#indicator",
+    "#event",
+    "#date",
+    "#affected",
+    "#impact",
+    "#group"
+  ],
+  "recipes": [
+    {
+      "name": "Key Figures: Sum items",
+      "description": "",
+      "type": "key figure",
+      "ingredients": {
+        "aggregateFunctions": [
+          "sum",
+          "count"
+        ],
+        "valueColumns": [
+          "#affected",
+          "#indicator+num"
+        ]
+      }
+    }
+  ]
+}
