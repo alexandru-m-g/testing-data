@@ -26,9 +26,11 @@
           "#affected",
           "#indicator+num"
         ],
-        "filterWith": {
-          "#event+context": "Individuals"
-        }
+        "filterWith": [
+          {
+            "#event+context": "Individuals"
+          }
+        ]
       }
     }
   ]
