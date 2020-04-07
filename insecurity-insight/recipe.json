@@ -25,7 +25,10 @@
         "valueColumns": [
           "#affected",
           "#indicator+num"
-        ]
+        ],
+        "filterWith": {
+          "#event+context": "Individuals"
+        }
       }
     }
   ]
